@@ -1,0 +1,28 @@
+.footer{
+    padding-top:30px;
+    @include flexlay(flex,column,flex-start,flex-start);
+    background-color: #9520B9;
+    h4,p,a{
+        color:white;
+    }
+    
+    .section1{
+        width:100%;
+        @include flexlay(flex,row,space-around,center);
+       li{
+           margin-top: 5px;
+           @include flexlay(flex,row,flex-start,center)
+       }
+    }
+    .section2{
+        width:100%;
+        @include flexlay(flex,row,space-around,center);
+        .policy{
+            @include flexlay(flex,row,space-around,center);
+            a{
+                margin-right: 15px;
+            }
+        }
+    }
+    
+}

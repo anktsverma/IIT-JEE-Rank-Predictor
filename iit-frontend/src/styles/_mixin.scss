@@ -1,0 +1,6 @@
+@mixin flexlay($display,$flexd,$jc,$ai) {
+    display:$display;
+    flex-direction:$flexd;
+    justify-content: $jc;
+    align-items: $ai;
+}

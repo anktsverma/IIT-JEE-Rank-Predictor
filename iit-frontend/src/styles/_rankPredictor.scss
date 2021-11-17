@@ -1,0 +1,91 @@
+.rank-predicator{
+    @include flexlay(flex,column,center,center);
+    padding: 40px 0px;
+    .dark-mode{
+        @include flexlay(flex,row,space-around,center);
+        margin-left: 10%;
+        div{
+            width: 200px;
+        }
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+      hr{
+          width: 200px;
+          margin:0px 20px;
+          border:none;
+          border-top:1px solid lightgray;
+      }
+    }
+    .category{
+        @include flexlay(flex,row,space-around,center);
+        button{
+            margin:10px;
+            padding: 10px 40px;
+            border:1px solid #333;
+            background-color: #fff;
+            border: 1px solid #E09DFF;
+            box-sizing: border-box;
+            border-radius: 10px;
+            
+            &:hover{
+                background-color: #9420B5;
+                color: white;
+                cursor: pointer;
+            }
+            &:active{
+                background-color: #9420B5;
+                color: white;
+            }
+        }
+    }
+    .ranks{
+        @include flexlay(flex,row,space-around,center);
+        button{
+            margin:10px;
+            padding: 10px 40px;
+            box-sizing: border-box;
+            border-radius: 10px;
+            background: #9420B5;
+            border:1px solid #333;
+            color: white;
+            &:hover{
+                background-color: #8420B5;
+                color: white;
+                cursor: pointer;
+            }
+            &:active{
+                background-color: #8420B5;
+                color: white;
+            }
+        }
+        input{
+            margin:10px;
+            padding: 10px 40px;
+            border: 1px solid #DCDCDC;
+            box-sizing: border-box;
+            border-radius: 10px;
+            font-size: 16px;
+            outline: none;
+            &:focus{
+            
+                border:1px solid #9420B5;
+            }
+        }
+    }
+    .rank-table,tr{
+        border:1px solid lightgray;
+        border-collapse: collapse;
+        padding: 0px 40px;
+    }
+    td,th{
+        padding: 10px 40px;
+    }
+    th{
+        background-color: #9420B5;
+        color: white;
+        font-weight: normal;
+    }
+    tr:nth-child(even) {background-color: #F5F5F5;}
+}

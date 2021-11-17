@@ -1,0 +1,201 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-image: url("../assets/asset1.svg");
+  height: 100vh;
+  background-size: cover;
+}
+.hero .navbar {
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.hero .navbar .logo img {
+  padding: 10px;
+  width: 100px;
+}
+.hero .navbar .links button {
+  margin: 0px 10px;
+  border: solid 1px #fff;
+  border-radius: 10px;
+  background-color: transparent;
+  padding: 10px 15px;
+  color: white;
+}
+.hero .navbar .links button:hover {
+  border: 1px solid #bbb;
+}
+.hero .hero-disc {
+  margin-left: 10rem;
+  margin-top: 8rem;
+}
+.hero .hero-disc h1, .hero .hero-disc p {
+  color: white;
+}
+.hero .btn {
+  margin-left: 10rem;
+}
+.hero .btn h1, .hero .btn p {
+  color: white;
+}
+.hero button {
+  border: solid 1px #fff;
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 10px 15px;
+  color: white;
+}
+.hero button:hover {
+  border: 1px solid #bbb;
+}
+
+.footer {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #9520B9;
+}
+.footer h4, .footer p, .footer a {
+  color: white;
+}
+.footer .section1 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer .section1 li {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.footer .section2 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer .section2 .policy {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer .section2 .policy a {
+  margin-right: 15px;
+}
+
+.rank-predicator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0px;
+}
+.rank-predicator .dark-mode {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 10%;
+}
+.rank-predicator .dark-mode div {
+  width: 200px;
+}
+.rank-predicator .logo {
+  display: flex;
+  align-items: center;
+}
+.rank-predicator .logo hr {
+  width: 200px;
+  margin: 0px 20px;
+  border: none;
+  border-top: 1px solid lightgray;
+}
+.rank-predicator .category {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.rank-predicator .category button {
+  margin: 10px;
+  padding: 10px 40px;
+  border: 1px solid #333;
+  background-color: #fff;
+  border: 1px solid #E09DFF;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.rank-predicator .category button:hover {
+  background-color: #9420B5;
+  color: white;
+  cursor: pointer;
+}
+.rank-predicator .category button:active {
+  background-color: #9420B5;
+  color: white;
+}
+.rank-predicator .ranks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.rank-predicator .ranks button {
+  margin: 10px;
+  padding: 10px 40px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background: #9420B5;
+  border: 1px solid #333;
+  color: white;
+}
+.rank-predicator .ranks button:hover {
+  background-color: #8420B5;
+  color: white;
+  cursor: pointer;
+}
+.rank-predicator .ranks button:active {
+  background-color: #8420B5;
+  color: white;
+}
+.rank-predicator .ranks input {
+  margin: 10px;
+  padding: 10px 40px;
+  border: 1px solid #DCDCDC;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-size: 16px;
+  outline: none;
+}
+.rank-predicator .ranks input:focus {
+  border: 1px solid #9420B5;
+}
+.rank-predicator .rank-table, .rank-predicator tr {
+  border: 1px solid lightgray;
+  border-collapse: collapse;
+  padding: 0px 40px;
+}
+.rank-predicator td, .rank-predicator th {
+  padding: 10px 40px;
+}
+.rank-predicator th {
+  background-color: #9420B5;
+  color: white;
+  font-weight: normal;
+}
+.rank-predicator tr:nth-child(even) {
+  background-color: #F5F5F5;
+}/*# sourceMappingURL=main.css.map */
